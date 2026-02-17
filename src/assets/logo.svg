@@ -1,0 +1,24 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="swooshGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A8DA2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A4A6E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <path d="M 100,150 C 100,50 500,50 500,150 C 500,250 100,250 100,150" 
+        fill="none" stroke="url(#swooshGrad)" stroke-width="8" stroke-linecap="round" />
+
+  <g fill="#F28500" font-family="sans-serif" font-weight="bold" font-size="120">
+    <text x="50" y="190" letter-spacing="-5">SDIG</text>
+  </g>
+
+  <g fill="#D32F2F">
+    <circle cx="80" cy="60" r="8" />
+    <circle cx="95" cy="80" r="12" />
+    <circle cx="115" cy="95" r="10" />
+    <circle cx="480" cy="240" r="12" />
+    <circle cx="505" cy="255" r="8" />
+    <circle cx="525" cy="235" r="6" />
+  </g>
+</svg>

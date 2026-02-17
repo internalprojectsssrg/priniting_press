@@ -1,11 +1,13 @@
 import { Search, ShoppingBag } from 'lucide-react';
-
+import logo from "../../assets/logo2.jpeg";
 const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full z-[100] bg-white/80 backdrop-blur-md border-b border-gray-100 px-8 py-5 flex justify-between items-center">
       <div className="flex items-center gap-2">
-        <div className="w-8 h-8 bg-brandBlack flex items-center justify-center text-white font-bold">P</div>
-        <span className="font-bold tracking-tighter text-xl">SSD</span>
+        {/*<div className="w-8 h-8 bg-brandBlack flex items-center justify-center text-white font-bold">P</div>*/}
+       {/*<span className="font-bold tracking-tighter text-xl">SSD</span>*/}
+       <img src={logo} alt="Logo" className="h-10 w-auto" />
+
       </div>
 
       <div className="hidden md:flex gap-10 text-[11px] font-bold uppercase tracking-[0.2em] text-gray-500">
