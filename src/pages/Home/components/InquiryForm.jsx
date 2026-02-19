@@ -11,10 +11,10 @@ export const InquiryForm = () => {
         </p>
         <div className="space-y-4">
           <div className="flex items-center gap-4 text-sm font-bold tracking-widest uppercase">
-            <span className="w-8 h-px bg-brandGold"></span> Direct: +1 234 567 890
+            <span className="w-8 h-px bg-brandGold"></span> Direct: +91-9912355047
           </div>
           <div className="flex items-center gap-4 text-sm font-bold tracking-widest uppercase">
-            <span className="w-8 h-px bg-brandGold"></span> Email: orders@prismprints.com
+            <span className="w-8 h-px bg-brandGold"></span> Email: orders@ssdg.com
           </div>
         </div>
       </div>

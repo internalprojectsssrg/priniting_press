@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const slides = [
-  { id: 1, title: "Precision Print.", sub: "Premium Branding", img: "https://images.unsplash.com/photo-1617791160505-6f00d5161bd3?q=80&w=2000" },
-  { id: 2, title: "Luxury Packaging.", sub: "The First Impression", img: "https://images.unsplash.com/photo-1606813907291-d86ebb9954ad?q=80&w=2000" }
+  { id: 1, title: "Precision Print.", sub: "Premium Branding", img: "" },
+  { id: 2, title: "Luxury Packaging.", sub: "The First Impression", img: ""}
 ];
 
 export const Hero = () => {
