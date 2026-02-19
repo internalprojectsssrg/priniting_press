@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Footer = () => {
   return (
@@ -6,8 +5,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-white/10 pb-20">
         <div className="col-span-1 md:col-span-1">
           <div className="flex items-center gap-2 mb-6">
-            <div className="w-8 h-8 bg-brandGold flex items-center justify-center text-white font-bold">P</div>
-            <span className="font-bold tracking-tighter text-xl">PRISM PRINTS</span>
+            <div className="w-8 h-8 bg-brandGold flex items-center justify-center text-white font-bold">SSDG</div>
+            <span className="font-bold tracking-tighter text-xl">SRI SAI DATTA GRAPHICS</span>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed">
             Leading the way in high-fidelity offset printing and innovative corporate branding solutions.
@@ -29,7 +28,6 @@ const Footer = () => {
           <ul className="text-gray-400 text-sm space-y-4">
             <li className="hover:text-white transition-colors cursor-pointer">Our Story</li>
             <li className="hover:text-white transition-colors cursor-pointer">Portfolio</li>
-            <li className="hover:text-white transition-colors cursor-pointer">Career</li>
             <li className="hover:text-white transition-colors cursor-pointer">Contact</li>
           </ul>
         </div>
@@ -45,7 +43,7 @@ const Footer = () => {
       </div>
       
       <div className="max-w-7xl mx-auto px-8 py-10 flex flex-col md:flex-row justify-between items-center text-[10px] text-gray-500 tracking-widest uppercase">
-        <p>© 2026 PRISM PRINTS - EXCELLENCE IN EVERY DOT.</p>
+        <p>© 2026 SSDG - EXCELLENCE IN EVERY DOT.</p>
         <div className="flex gap-8 mt-4 md:mt-0">
           <a href="#" className="hover:text-white">Twitter</a>
           <a href="#" className="hover:text-white">Instagram</a>

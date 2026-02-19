@@ -42,3 +42,26 @@ src/
 ├── services/           # API calls (if you eventually use a backend/CMS)
 ├── utils/              # Helper functions (Formatters, Validators)
 └── App.jsx             # Root component & Routing 
+
+
+
+src/pages/
+├── Home/
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── ServiceCard.jsx
+│   │   ├── ClientLogos.jsx
+│   │   └── InquiryForm.jsx
+│   └── Home.jsx
+├── Services/
+│   ├── components/
+│   │   ├── ServiceCard.jsx
+│   │   ├── ServiceFilter.jsx
+│   │   └── ServiceDetail.jsx
+│   └── Services.jsx
+├── Studio/
+│   ├── components/
+│   │   ├── StudioGallery.jsx
+│   │   ├── TeamSection.jsx
+│   │   └── EquipmentShowcase.jsx
+│   └── Studio.jsx
