@@ -17,7 +17,7 @@ const Studio = () => {
   ];
 
   return (
-    <main className="min-h-screen pt-20 bg-white">
+    <main className="min-h-screen pt-20 bg-white" id='studio-section'>
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-8 py-20">
         <motion.div

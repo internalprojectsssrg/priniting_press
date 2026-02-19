@@ -2,7 +2,7 @@ import { Upload, Send } from 'lucide-react';
 
 export const InquiryForm = () => {
   return (
-    <section className="max-w-7xl mx-auto py-24 px-8 grid md:grid-cols-2 gap-16 items-center">
+    <section className="max-w-7xl mx-auto py-24 px-8 grid md:grid-cols-2 gap-16 items-center" id='inquiry-section'>
       <div>
         <h2 className="text-4xl font-serif mb-6">Start a Project</h2>
         <p className="text-gray-500 mb-8 font-light leading-relaxed">

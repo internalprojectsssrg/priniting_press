@@ -25,7 +25,7 @@ const Home = () => {
   };
 
   return (
-    <main className="min-h-screen pt-[72px]">
+    <main className="min-h-screen pt-[72px]" id='home-section'>
       <Hero />
       <ClientLogos />
       
@@ -39,7 +39,7 @@ const Home = () => {
 
       <CategorySelector active={activeCategory} onSelect={handleCategoryChange} />
 
-      <section className="max-w-7xl mx-auto py-20 px-6">
+      <section className="max-w-7xl mx-auto py-20 px-6" id='services-section'>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {visibleServices.map((item) => (
             <ServiceCard key={item.name} item={item} />
