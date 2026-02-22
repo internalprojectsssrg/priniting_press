@@ -1,87 +1,145 @@
+import business from "../assets/businesscardimg.jpg"
+import badge from "../assets/badgesimg.jpg"
+import binding from "../assets/binding.jpg"
+import broucher from "../assets/brouches.jpg"
+import calender from "../assets/calenders.jpg"
+import certificate from "../assets/certificate.jpg"
+import goldfoiling from "../assets/goldfoiling.jpg"
+import idcard from "../assets/idcard.jpg"
+import menucard from "../assets/menucard.jpg"
+import multicolor from "../assets/multicolorimg.jpg"
+import premiumbusiness from "../assets/premiumbusinesscard.jpg"
+import uvprinting from "../assets/uvprinting.jpg"
+import file from "../assets/filescovers.jpg"
+import valvetprinting from "../assets/valvetprinting.jpg"
+import valetparking from "../assets/valetparkingimg.jpg"
+import acrylic from "../assets/acrylicimag.jpg"
+import stickerandpvc from "../assets/stickersandpvc.jpg"
+import frostedimg from "../assets/frostedimages.jpg"
+import stickershape from "../assets/Sticker.jpg"
+import customshape from "../assets/customshapecutting.jpg"
+import tshirtprinting from "../assets/tshirtprinting.jpg"
+import fabricprinting from "../assets/fabricprinting.jpg"
+import caps from "../assets/capsprinting.jpg"
+import umbrella from "../assets/ummberallaprinting.jpg"
+import bagsprint from "../assets/bagsprinting.jpg"
+import mug from "../assets/mugprintind.jpg"
+import sweetboxes from "../assets/sweetbox.jpg"
+import cliponboard from "../assets/cliponboard.jpg"
+import signageboard from "../assets/sinageboard.jpg"
+import cnc from "../assets/CNC cutting.jpg"
+import foamboards from "../assets/foamboards.jpg"
+import sunboard from "../assets/sunboards.jpg"
+import acpboard from "../assets/acpboard.jpg"
+import menuboard from "../assets/menuboards.jpg"
+import wallsinage from "../assets/wallsinage.jpg"
+import mounmentsinage from "../assets/mounmentsinage.jpg"
+import customcovers from "../assets/customcovers.jpg"
+import custombags from "../assets/custombags.jpg"
+import customtotebags from "../assets/customtotebags.jpg"
+import lgiftbox from "../assets/giftboxes.jpg"
+import parcelboxes from "../assets/parcelboxes.jpg"
+import cardboard from "../assets/cardboardimg.jpg"
+import sweetboxs from "../assets/sweetbox.jpg"
+import customframe from "../assets/customframeimg.jpg"
+import channelsinage from "../assets/chaneelsinage.jpg"
+import ledlettersinage from "../assets/ledsinage.jpg"
+import digitalsinage from "../assets/digitalsinage.jpg"
+import vinlystickers from "../assets/vinylstickers.jpg"
+import foster from "../assets/fosterstickers.jpg"
+import flexis from "../assets/fleximg.jpg"
+import rollup from "../assets/rollupstandees.jpg"
+import ironstandee from "../assets/ironstandees.jpg"
+import luxurystandee from "../assets/luxrystandees.jpg"
+import woodenstandee from "../assets/woodenstandees.jpg"
+import flags from "../assets/flags.jpg"
+import teakettle from "../assets/teakettle1.jpg"
+
+
 export const serviceData = {
   print: [
     // --- Stationery & Corporate ---
-    { name: "Multicolour Offset Printing", tag: "Bulk / Press", image: "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Business Cards", tag: "Corporate", image: "https://images.pexels.com/photos/3962287/pexels-photo-3962287.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Premium Business Cards", tag: "Luxury", image: "https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "iD Cards", tag: "Corporate", image: "https://images.pexels.com/photos/3588365/pexels-photo-3588365.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Files & Covers", tag: "Stationery", image: "https://images.pexels.com/photos/3714896/pexels-photo-3714896.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Certificates", tag: "Official", image: "https://images.pexels.com/photos/3808517/pexels-photo-3808517.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Dairies & Calenders", tag: "Stationery", image: "https://images.pexels.com/photos/3962291/pexels-photo-3962291.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Multicolour Offset Printing", tag: "Bulk / Press", image: multicolor },
+    { name: "Business Cards", tag: "Corporate", image: business },
+    { name: "Premium Business Cards", tag: "Luxury", image: premiumbusiness },
+    { name: "iD Cards", tag: "Corporate", image: idcard },
+    { name: "Files & Covers", tag: "Stationery", image: file },
+    { name: "Certificates", tag: "Official", image: certificate},
+    { name: "Dairies & Calenders", tag: "Stationery", image: calender },
 
     // --- Marketing & Hospitality ---
-    { name: "Brochures", tag: "Marketing", image: "https://images.pexels.com/photos/3714896/pexels-photo-3714896.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Menu Cards", tag: "Hospitality", image: "https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Badges", tag: "Events", image: "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Valet Parking Tags", tag: "Hospitality", image: "https://images.pexels.com/photos/3803517/pexels-photo-3803517.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Perfect Binding", tag: "Finishing", image: "https://images.pexels.com/photos/3808516/pexels-photo-3808516.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Brochures", tag: "Marketing", image:broucher },
+    { name: "Menu Cards", tag: "Hospitality", image: menucard },
+    { name: "Badges", tag: "Events", image: badge },
+    { name: "Valet Parking Tags", tag: "Hospitality", image: valetparking },
+    { name: "Perfect Binding", tag: "Finishing", image: binding },
 
     // --- Premium & Specialty ---
-    { name: "Gold Foiling", tag: "Premium", image: "https://images.pexels.com/photos/3962290/pexels-photo-3962290.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Velvet Printing", tag: "Premium", image: "https://images.pexels.com/photos/3962292/pexels-photo-3962292.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "UV Printing", tag: "Specialty", image: "https://images.pexels.com/photos/3962293/pexels-photo-3962293.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Acrylic Printing", tag: "Specialty", image: "https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Gold Foiling", tag: "Premium", image: goldfoiling},
+    { name: "Velvet Printing", tag: "Premium", image: valvetprinting},
+    { name: "UV Printing", tag: "Specialty", image:uvprinting},
+    { name: "Acrylic Printing", tag: "Specialty", image: acrylic },
 
     // --- Stickers & Cutting ---
-    { name: "Stickers & PVC Stickers", tag: "Labels", image: "https://images.pexels.com/photos/3962296/pexels-photo-3962296.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Frosted Stickers", tag: "Interior", image: "https://images.pexels.com/photos/3962297/pexels-photo-3962297.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Sticker Shape Cutting", tag: "Custom", image: "https://images.pexels.com/photos/3962298/pexels-photo-3962298.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Custom Shape Cutting", tag: "Custom", image: "https://images.pexels.com/photos/3962299/pexels-photo-3962299.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Stickers & PVC Stickers", tag: "Labels", image: stickerandpvc },
+    { name: "Frosted Stickers", tag: "Interior", image: frostedimg},
+    { name: "Sticker Shape Cutting", tag: "Custom", image: stickershape },
+    { name: "Custom Shape Cutting", tag: "Custom", image:customshape  },
 
-    // --- Apparel & Merch ---
-    { name: "Tshirt Printing", tag: "Apparel", image: "https://images.pexels.com/photos/3622619/pexels-photo-3622619.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Fabric Printing", tag: "Apparel", image: "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Caps Printing", tag: "Apparel", image: "https://images.pexels.com/photos/3394651/pexels-photo-3394651.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Umbrella Printing", tag: "Merch", image: "https://images.pexels.com/photos/3298669/pexels-photo-3298669.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Tote Bags with Printing", tag: "Merch", image: "https://images.pexels.com/photos/3738097/pexels-photo-3738097.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Mug Printing", tag: "Merch", image: "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Tea Kettles", tag: "Custom Merch", image: "https://images.pexels.com/photos/312419/pexels-photo-312419.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    // --- \ ---
+    { name: "Tshirt Printing", tag: "Apparel", image: tshirtprinting },
+    { name: "Fabric Printing", tag: "Apparel", image:fabricprinting },
+    { name: "Caps Printing", tag: "Apparel", image: caps},
+    { name: "Umbrella Printing", tag: "Merch", image: umbrella },
+    { name: "Tote Bags with Printing", tag: "Merch", image: bagsprint },
+    { name: "Mug Printing", tag: "Merch", image: mug },
+    { name: "Tea Kettles", tag: "Custom Merch", image: teakettle },
     
     // --- Packaging Specifics ---
-    { name: "Sweet Boxes", tag: "Packaging", image: "https://images.pexels.com/photos/3962308/pexels-photo-3962308.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Sweet Boxes", tag: "Packaging", image:sweetboxes},
   ],
   brand: [
     // --- Boards & Signage ---
-    { name: "Clipon Boards", tag: "Signage", image: "https://images.pexels.com/photos/3962309/pexels-photo-3962309.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Signage Boards", tag: "Signage", image: "https://images.pexels.com/photos/3842294/pexels-photo-3842294.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "CNC Cutting Acrylic Boards", tag: "Signage", image: "https://images.pexels.com/photos/3962311/pexels-photo-3962311.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Foam Boards", tag: "Signage", image: "https://images.pexels.com/photos/3962312/pexels-photo-3962312.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Sun Boards", tag: "Signage", image: "https://images.pexels.com/photos/3962313/pexels-photo-3962313.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "ACP Sheets", tag: "Signage", image: "https://images.pexels.com/photos/3962314/pexels-photo-3962314.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Menu Boards", tag: "Signage", image: "https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Wall Signage", tag: "Signage", image: "https://images.pexels.com/photos/3842295/pexels-photo-3842295.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Monument Signage Boards", tag: "Outdoor", image: "https://images.pexels.com/photos/3950297/pexels-photo-3950297.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Clipon Boards", tag: "Signage", image:cliponboard },
+    { name: "Signage Boards", tag: "Signage", image: signageboard },
+    { name: "CNC Cutting Acrylic Boards", tag: "Signage", image: cnc },
+    { name: "Foam Boards", tag: "Signage", image:foamboards  },
+    { name: "Sun Boards", tag: "Signage", image:sunboard },
+    { name: "ACP Sheets", tag: "Signage", image: acpboard },
+    { name: "Menu Boards", tag: "Signage", image:menuboard },
+    { name: "Wall Signage", tag: "Signage", image:wallsinage },
+    { name: "Monument Signage Boards", tag: "Outdoor", image:mounmentsinage  },
 
     // --- LED & Digital ---
-    { name: "Channel LED Boards", tag: "Outdoor", image: "https://images.pexels.com/photos/3962318/pexels-photo-3962318.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "LED Letters Signage", tag: "Outdoor", image: "https://images.pexels.com/photos/3962319/pexels-photo-3962319.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Digital Signage", tag: "Tech", image: "https://images.pexels.com/photos/3962320/pexels-photo-3962320.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Channel LED Boards", tag: "Outdoor", image: channelsinage },
+    { name: "LED Letters Signage", tag: "Outdoor", image: ledlettersinage},
+    { name: "Digital Signage", tag: "Tech", image: digitalsinage },
 
     // --- Stickers & Vinyl ---
-    { name: "Vinyl Stickers", tag: "Large Format", image: "https://images.pexels.com/photos/3962321/pexels-photo-3962321.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Frosted Stickers", tag: "Interior", image: "https://images.pexels.com/photos/3962322/pexels-photo-3962322.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Flexis", tag: "Large Format", image: "https://images.pexels.com/photos/3962323/pexels-photo-3962323.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Vinyl Stickers", tag: "Large Format", image: vinlystickers},
+    { name: "Frosted Stickers", tag: "Interior", image:foster },
+    { name: "Flexis", tag: "Large Format", image: flexis },
 
     // --- Standees ---
-    { name: "Roll up Standees", tag: "Displays", image: "https://images.pexels.com/photos/3962324/pexels-photo-3962324.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Iron Standees", tag: "Displays", image: "https://images.pexels.com/photos/3962325/pexels-photo-3962325.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Luxury Standees", tag: "Premium", image: "https://images.pexels.com/photos/3962326/pexels-photo-3962326.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Wooden Standees", tag: "Custom", image: "https://images.pexels.com/photos/3962327/pexels-photo-3962327.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Roll up Standees", tag: "Displays", image: rollup },
+    { name: "Iron Standees", tag: "Displays", image: ironstandee},
+    { name: "Luxury Standees", tag: "Premium", image: luxurystandee },
+    { name: "Wooden Standees", tag: "Custom", image: woodenstandee },
 
     // --- Other Branding ---
-    { name: "Flags", tag: "Outdoor", image: "https://images.pexels.com/photos/3962328/pexels-photo-3962328.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Photo Frames", tag: "Interior", image: "https://images.pexels.com/photos/3714898/pexels-photo-3714898.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Flags", tag: "Outdoor", image: flags },
+    { name: "Photo Frames", tag: "Interior", image: customframe },
   ],
   pack: [
     // --- Boxes ---
-    { name: "Luxury Gift Boxes", tag: "Premium", image: "https://images.pexels.com/photos/3738100/pexels-photo-3738100.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Parcel Boxes", tag: "Shipping", image: "https://images.pexels.com/photos/3970330/pexels-photo-3970330.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Cardboard Boxes", tag: "Shipping", image: "https://images.pexels.com/photos/3962332/pexels-photo-3962332.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Sweet Boxes", tag: "Specialty", image: "https://images.pexels.com/photos/3738101/pexels-photo-3738101.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Luxury Gift Boxes", tag: "Premium", image: lgiftbox},
+    { name: "Parcel Boxes", tag: "Shipping", image:parcelboxes },
+    { name: "Cardboard Boxes", tag: "Shipping", image:cardboard },
+    { name: "Sweet Boxes", tag: "Specialty", image: sweetboxs},
 
     // --- Bags & Covers ---
-    { name: "Custom Tote Bags", tag: "Eco", image: "https://images.pexels.com/photos/3738097/pexels-photo-3738097.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Printed Covers", tag: "Stationery", image: "https://images.pexels.com/photos/3714896/pexels-photo-3714896.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Bags", tag: "Packaging", image: "https://images.pexels.com/photos/3738098/pexels-photo-3738098.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Custom Tote Bags", tag: "Eco", image:customtotebags },
+    { name: "Printed Covers", tag: "Stationery", image: customcovers},
+    { name: "Bags", tag: "Packaging", image: custombags},
   ]
 };
