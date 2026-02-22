@@ -172,16 +172,6 @@ export const Hero = () => {
               className="flex gap-4 flex-wrap"
             >
               <button
-                className="px-8 py-3 text-xs tracking-[0.25em] uppercase font-sans font-semibold transition-all duration-300 hover:scale-105"
-                style={{
-                  background: theme.accent,
-                  color: '#0a0804',
-                  letterSpacing: '0.25em',
-                }}
-              >
-                Explore Work
-              </button>
-              <button
                 className="px-8 py-3 text-xs tracking-[0.25em] uppercase font-sans font-semibold border transition-all duration-300 hover:bg-white/10"
                 style={{
                   borderColor: 'rgba(255,255,255,0.4)',

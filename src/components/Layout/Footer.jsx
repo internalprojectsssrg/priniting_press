@@ -45,9 +45,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-8 py-10 flex flex-col md:flex-row justify-between items-center text-[10px] text-gray-500 tracking-widest uppercase">
         <p>© 2026 SSDG - EXCELLENCE IN EVERY DOT.</p>
         <div className="flex gap-8 mt-4 md:mt-0">
-          <a href="#" className="hover:text-white">Twitter</a>
-          <a href="#" className="hover:text-white">Instagram</a>
-          <a href="#" className="hover:text-white">LinkedIn</a>
+          <a href="" className="hover:text-white">Twitter</a>
+          <a href="" className="hover:text-white">Instagram</a>
+          <a href="" className="hover:text-white">LinkedIn</a>
         </div>
       </div>
     </footer>
