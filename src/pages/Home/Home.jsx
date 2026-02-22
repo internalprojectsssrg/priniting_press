@@ -40,7 +40,7 @@ const Home = () => {
   };
 
   return (
-    <main className="min-h-screen pt-[72px]">
+    <main className="min-h-screen pt-[72px]"id='home-section'>
       <Hero />
       
       <div className="mt-20">
