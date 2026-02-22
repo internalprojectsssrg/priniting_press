@@ -9,8 +9,6 @@ function App() {
     <>
       <Navbar /> 
       <Home />
-      <Studio/>
-      <InquiryForm />
       <Footer />
     </>
   )
