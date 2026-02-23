@@ -248,7 +248,7 @@ export const Hero = () => {
         <motion.div
           className="w-px h-12 origin-top"
           style={{ background: `linear-gradient(to bottom, ${theme.accent}, transparent)` }}
-          animate={{ scaleY: [0, 1, 0] }}
+          animate={{ scaleY: [0, 4, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
         />
       </div>
